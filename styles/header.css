@@ -35,7 +35,6 @@
 .header__search img {
     width: 12px;
     height: 12px;
-
     position: absolute;
     top: 8px;
     left: 8px;
@@ -51,7 +50,6 @@
     outline: none;
     font-size: 12px;
     text-decoration: none;
-
 }
 
 .header__search input:focus {
@@ -68,7 +66,6 @@
     width: 24px;
     height: 24px;
 }
-
 
 @media (min-width: 768px) {
     .header__search {

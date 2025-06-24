@@ -44,7 +44,6 @@
     gap: 8px;
 }
 
-
 .story {
     background-color: transparent;
     border: none;
@@ -78,7 +77,7 @@
     overflow: hidden;
 }
 
-.storey__user {
+.story__user {
     font-size: 12px;
     font-weight: 400;
     color: #999999;
@@ -113,7 +112,6 @@
 .post__header {
     background-color: #FFFFFF;
     border-bottom: 1px solid #DBDBDB;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -123,7 +121,7 @@
 .post__profile {
     display: flex;
     align-items: center;
-    gap:12px;
+    gap: 12px;
 }
 
 .post__avatar {
@@ -159,9 +157,8 @@
 
 .post__medias {
     display: flex;
-    overflow-y: hidden ;
+    overflow-y: hidden;
     overflow-x: auto;
-
     width: 100%;
 }
 
@@ -182,7 +179,6 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
-
     padding: 8px;
 }
 
@@ -216,31 +212,30 @@
 }
 
 .post__likes span,
-  .post__description span {
+.post__description span {
     font-size: 14px;
     font-weight: 400;
     color: #262626;
-  }
-  
-  .post__likes a,
-  .post__description a {
+}
+
+.post__likes a,
+.post__description a {
     font-size: 14px;
     font-weight: 500;
     color: #262626;
     text-decoration: none;
-  }
-  
-  .post__name--underline:hover {
+}
+
+.post__name--underline:hover {
     text-decoration: underline;
-  }
-  
-  .post__date-time {
+}
+
+.post__date-time {
     font-size: 10px;
     font-weight: 400;
     color: #999999;
     text-transform: uppercase;
-  }
- 
+}
 
 @media (min-width: 620px) {
     .content-container {
@@ -268,7 +263,6 @@
         border: 1px solid #DBDBDB;
         border-radius: 4px;
     }
-
 }
 
 @media (min-width: 1024px) {
